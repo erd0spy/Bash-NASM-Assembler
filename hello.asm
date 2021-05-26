@@ -2,14 +2,14 @@ global _start
 
 section .data
     text db "Hello, World!", 0x0a
-    length equ $-text
+    text_length equ $-text
 
 section .text
 _start:
     mov rax, 1
     mov rdi, 1
     mov rsi, text
-    mov rdx, length
+    mov rdx, text_length
     syscall
 
     mov rax, 60
