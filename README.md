@@ -2,7 +2,7 @@
 
 <br>
 
-Simple bash script to assemble .asm files with nasm on Linux.
+Simple bash script to assemble .asm files using nasm on Linux.
 
 <b>Install dependencies:</b>
 
